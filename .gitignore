@@ -6,6 +6,26 @@ target/
 mvnw.cmd
 mvnw
 
+### frontend ###
+# dependencies
+frontend/student-frontend-app/node_modules
+frontend/student-frontend-app/.pnp
+.pnp.js
+
+# testing
+frontend/student-frontend-app/coverage
+
+# production
+frontend/student-frontend-app/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
 ### STS ###
 .apt_generated
 .classpath
